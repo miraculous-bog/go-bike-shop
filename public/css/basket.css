@@ -1,0 +1,167 @@
+.basket-intro {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	height: 35px;	
+	display: flex;
+	justify-content: space-between;
+	background: #CCFF99;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.name-intro {
+	width: 36%;
+	padding-left: 10%;
+}
+.count-intro {
+	width: 20%;
+}
+.price-intro {
+	width: 15%;
+}
+.price-g-intro {
+	width: 15%;
+}
+.basket-net {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	height: auto;
+}
+.item-basket {
+	width: 100%;
+	height: 100px;
+	border-top: 2px solid green;
+	transition: 0.5s ease-in-out;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+.basket-net div:nth-child(1){
+	border: none;
+}
+.item-basket:hover {
+	background: #CCCCFF;
+}
+.button-del {
+	width: 5%; 
+  margin-left:20px;
+}
+.button-del-img {
+	cursor:pointer;
+  width:18px;
+  height:17px;
+  background:url("https://designmodo.com/demo/shopping-cart/delete-icn.svg") no-repeat center;
+}
+.img-item-bas {
+ 	width: 11%;
+	height: 100px;
+	overflow: hidden;
+	display: inline-block;
+}
+.img-item-bas img{
+	max-width: 100px;
+	max-height: 100px;
+	width: 100%;
+}
+.name-item {
+	width: 30%;
+}
+.name-item h1{
+	padding: 5px 0;
+	font-size: 18px;
+	color: #003300;
+}
+.name-item p{
+	padding: 10px 0;
+}
+.counter-item {
+ width: 20%;
+}
+.counter-item h2 {
+	font-size: 20px;
+	color: #003300;
+	margin-left: 15%;
+	margin-top: 10%;
+}
+.button-bas-item {
+	margin-top: 10px;
+}
+.button-bas-item button {
+	cursor: pointer;
+	border: none;
+	width: 30px;
+	height: 30px;
+	font-size: 25px;
+	background: #CCFF99;
+}
+.button-bas-item button:focus {
+	outline: 3px solid #78ff00;
+}
+.price-item-bas {
+	width: 15%;
+	font-size: 25px;
+	color: green;
+	margin-top: 10px; 
+}
+.whole-price-item {
+	width: 15%;
+	margin-top: 10px;
+	font-size: 26px;
+}
+.sending {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+.form-block {
+	width: 43%;
+	padding-left: 10%;
+}
+.sumup {
+	40%
+}
+.form-block label {
+	width: 50px;
+}
+.form-block input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+    border: 1px solid green;
+    border-radius: 4px;
+}
+.form-block input[type=submit] {
+	margin-left: 20%; 
+	cursor: pointer;
+	border: 1px solid green;
+	background: #78ff00;
+	padding: 10px 20px;
+	transition: 0.4s ease-in-out;
+	font-size: 17px;
+	color: white;
+
+}
+.form-block input:nth-child(2) {
+	margin-left: 42px;
+}
+.form-block input:focus {
+	border: 3px solid green;
+	outline: 0;
+
+}
+.sumup h3 {
+	font-size: 20px;
+	color: grey;
+	padding: 20px;
+}
+.sumup span{
+	font-size: 25px;
+	color: green;
+	padding-left: 10px;
+}

@@ -1,0 +1,86 @@
+body {
+    min-width: 1000px;
+}
+
+.head {
+    margin: 0 auto;
+    height: 100px;
+}
+
+.wrapper {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.img-logo {
+    height: 100px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.img-block {
+    width: 128px;
+    height: 128px;
+    margin: 50px auto;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.7em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menuli-head li {
+    font-size: 23px;
+    width: 100%;
+    height: 20px;
+    padding: 10px 20px 0 310px;
+    font-weight: 600;
+}
+
+.menuli-head a {
+    color: green;
+    position: relative;
+    padding: 5px;
+}
+
+.menuli-head a:hover {
+    color: black;
+}
+
+.menuli-head li a:before {
+    content: '';
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 0;
+    height: 20%;
+    background: #78ff00;
+    border-radius: 0 20% 20% 0;
+    z-index: -1;
+    transition: 0.5s ease-in-out;
+}
+
+.menuli-head li a:hover:before,
+.menuli-head li a.active:before {
+    width: 100%;
+}
+
+.contacts {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}

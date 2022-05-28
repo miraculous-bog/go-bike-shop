@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>admin-panel</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="css/admin.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="wrapper">
+    <!--		<h1>Категории</h1>-->
+    <!--		<input type="button" value="Открыть или добавить категорию" onmousedown="viewDiv()" id="onetouch1">-->
+    <!--		<div class="categorogy-net" id="hiden-c">-->
+    <!--			<div class="c-add-block">-->
+    <!--				<form>-->
+    <!--				  <label for="fname">Добавить категорию</label>-->
+    <!--				  <input type="text" id="fname" name="fname">-->
+    <!--				  <input type="file" name="userfoto">-->
+    <!--				</form>-->
+    <!--				<div class="c-add-button">-->
+    <!--					<a href="delete.html?id=2" target="_blank" class="add-link need-to-confirm">-->
+    <!--					    <span class="maintext">Добавить</span>-->
+    <!--					</a>-->
+    <!--				</div>-->
+    <!--			</div>-->
+    <!--			<div class="categorogy-item">-->
+    <!--				<div class="c-id">-->
+    <!--					<p>1</p>-->
+    <!--				</div>-->
+    <!--				<div class="c-name">-->
+    <!--					<p>Велокомпютеры</p>-->
+    <!--				</div>-->
+    <!--				<div class="c-img">-->
+    <!--					<img src="img/computer.jpg" alt="">-->
+    <!--				</div>-->
+    <!--				<div class="c-but">-->
+    <!--					<div class="c-del-button">-->
+    <!--						<a href="delete.html?id=2" target="_blank" class="delete-link need-to-confirm">-->
+    <!--						    <span class="maintext">✘ Удалить</span>-->
+    <!--						</a>-->
+    <!--					</div>-->
+    <!--					<div class="c-edit-button">-->
+    <!--						<a href="delete.html?id=2" target="_blank" class="edit-link need-to-confirm">-->
+    <!--						    <span class="maintext">Изменить</span>-->
+    <!--						</a>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!--			</div>-->
+    <!--			<div class="categorogy-item">-->
+    <!--				<div class="c-id">-->
+    <!--					<p>2</p>-->
+    <!--				</div>-->
+    <!--				<div class="c-name">-->
+    <!--					<p>Велокомпютеры</p>-->
+    <!--				</div>-->
+    <!--				<div class="c-img">-->
+    <!--					<img src="img/computer.jpg" alt="">-->
+    <!--				</div>-->
+    <!--				<div class="c-but">-->
+    <!--					<div class="c-del-button">-->
+    <!--						<a href="delete.html?id=2" target="_blank" class="delete-link need-to-confirm">-->
+    <!--						    <span class="maintext">✘ Удалить</span>-->
+    <!--						</a>-->
+    <!--					</div>-->
+    <!--					<div class="c-edit-button">-->
+    <!--						<a href="delete.html?id=2" target="_blank" class="edit-link need-to-confirm">-->
+    <!--						    <span class="maintext">Изменить</span>-->
+    <!--						</a>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!--			</div>-->
+    <!--			<div class="categorogy-item">-->
+    <!--				<div class="c-id">-->
+    <!--					<p>3</p>-->
+    <!--				</div>-->
+    <!--				<div class="c-name">-->
+    <!--					<p>Стойки для перевозки вело на автомобиле</p>-->
+    <!--				</div>-->
+    <!--				<div class="c-img">-->
+    <!--					<img src="img/computer.jpg" alt="">-->
+    <!--				</div>-->
+    <!--				<div class="c-but">-->
+    <!--					<div class="c-del-button">-->
+    <!--						<a href="delete.html?id=2" target="_blank" class="delete-link need-to-confirm">-->
+    <!--						    <span class="maintext">✘ Удалить</span>-->
+    <!--						</a>-->
+    <!--					</div>-->
+    <!--					<div class="c-edit-button">-->
+    <!--						<a href="delete.html?id=2" target="_blank" class="edit-link need-to-confirm">-->
+    <!--						    <span class="maintext">Изменить</span>-->
+    <!--						</a>-->
+    <!--					</div>-->
+    <!--				</div>-->
+    <!--			</div>-->
+    <!--		</div>-->
+    <h1>Товары</h1>
+    <!--		<input type="button" value="Открыть или добавить товар" onmousedown="viewDiv2()" id="onetouch2">-->
+    <div class="product">
+        <div class="c-add-block">
+            <form id="create-product-form">
+                <label>
+                    <input type="text" class="add-name" id="create-name" name="fname" placeholder="Ведите имя товара">
+                </label>
+                <label>
+                    <input type="text" class="add-code" id="create-code" name="fcode" placeholder="Ведите код">
+                </label>
+                <label>
+                    <input type="text" class="add-price" id="create-price" name="fprice" placeholder="Цена">
+                </label>
+                <div class="sortvibor">
+                    <label>
+                        <select name="sort" class="categories-select" id="create-product-category-select"></select>
+                    </label>
+                    <span class="strelka">&#9660;</span>
+                </div>
+                <input type="file" name="userfoto" placeholder="Фото">
+                <div class="c-add-button">
+                    <button class="add-link need-to-confirm" id="create-button">
+                        <span class="maintext">Добавить</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="sortvibor">
+            <span>Вибрать товары по категориям</span>
+            <form action="">
+                <label>
+                    <select name="sort" class="categories-select" id="product-select"></select>
+                </label>
+            </form>
+            <span class="strelka">&#9660;</span>
+        </div>
+        <div class="product-net" id="product-net"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    function viewDiv() {
+        document.getElementById("hiden-c").style.display = "block";
+        document.getElementById("onetouch1").style.display = "none";
+    }
+
+    function viewDiv2() {
+        document.getElementById("hiden-t").style.display = "block";
+        document.getElementById("onetouch2").style.display = "none";
+    }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script src="/script/AdminLoader.js"></script>
+</body>
+</html>

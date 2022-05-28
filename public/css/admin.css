@@ -1,0 +1,278 @@
+@import url(reset.css);
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+    /*	border: 1px solid black;*/
+    height: auto;
+}
+
+#hiden-c {
+    display: none;
+}
+
+#hiden-t {
+    display: none;
+}
+
+.onetouch {
+    display: block;
+}
+
+.categorogy-net {
+    width: 750px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.categorogy-item {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid grey;
+    position: relative;
+}
+
+.c-id {
+    width: 5%;
+    font-size: 18px;
+    padding: 0;
+}
+
+.c-name {
+    max-width: 50%;
+    min-width: 20%;
+    font-size: 15px;
+    padding: 0;
+    padding-top: 5px;
+}
+
+.c-img {
+    width: 20%;
+}
+
+.c-img img {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.c-but {
+    position: absolute;
+    display: flex;
+    right: 0;
+}
+
+.delete-link {
+    display: inline-block;
+    padding: 3px 5px;
+    border: 1px solid red;
+    background-color: #edbaba;
+    color: red;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.delete-link:hover {
+    background-color: #fff;
+}
+
+.edit-link {
+    display: inline-block;
+    padding: 3px 5px;
+    border: 1px solid grey;
+    background-color: #ecf6e9;
+    color: grey;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.edit-link:hover {
+    background-color: #fff;
+}
+
+.categorogy-net form {
+    margin-top: 30px;
+}
+
+.c-add-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-link {
+    display: inline-block;
+    padding: 3px 5px;
+    border: 1px solid green;
+    background-color: #CCFF99;
+    color: green;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.add-link:hover {
+    background-color: #fff;
+}
+
+/*выбор категории*/
+.sortvibor {
+    float: left;
+    margin-top: 10px;
+    font-family: 'PT Sans Narrow 400', sans-serif;
+    line-height: 20px;
+    position: relative;
+}
+
+.sortvibor span {
+    font-size: 18px;
+    color: #000;
+}
+
+.sortvibor form {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.sortvibor select {
+    font-family: 'PT Sans Narrow 400', sans-serif;
+    line-height: 20px;
+    color: #000;
+    font-size: 14px;
+    min-width: 155px;
+    padding: 2px 50px 2px 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    background-color: transparent;
+    text-decoration: underline;
+    outline: none;
+    border: 1px solid #467797;
+}
+
+.sortvibor option:checked {
+    display: none;
+}
+
+.sortvibor option:not(:checked) {
+    color: #467797;
+}
+
+.sortvibor option {
+    border: 1px solid #467797;
+}
+
+.sortvibor .strelka {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    z-index: -9999;
+}
+
+#black {
+    color: black;
+}
+
+/*сетка товаров*/
+.product-net {
+    display: grid;
+    grid-template: ". . . . . . . .";
+    text-align: center;
+    gap: 10px;
+    margin-top: 70px;
+
+}
+
+/*.product-item {*/
+/*    display: flex;*/
+/*    justify-content: space-start;*/
+/*    position: relative;*/
+/*    border-bottom: 1px solid black;*/
+/*}*/
+
+.product-item div {
+    margin: 0 10px 0 10px;
+}
+
+.p-id {
+    /*width: 3%;*/
+}
+
+.p-name {
+    /*width: 30%;*/
+}
+
+.p-code {
+    /*width: 10%;*/
+}
+
+.p-img {
+    /*width: 10%;*/
+}
+
+.p-img img {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.c-description {
+    display: flex;
+}
+
+/*описаные таблицы товара*/
+.d-id {
+    width: 7%;
+}
+
+.d-name {
+    width: 32%;
+}
+
+.d-code {
+    width: 10%;
+}
+
+.d-category {
+    width: 11%;
+}
+
+.d-price {
+    width: 7%;
+}
+
+.d-img {
+    width: 8%;
+}
+
+.d-del {
+    width: 11%;
+}
+
+
+.add-code {
+    width: 80px;
+}
+
+.add-price {
+    width: 50px;
+}
+
+.c-add-button {
+    position: relative;
+}
+
+.c-add-block .sortvibor {
+    margin-top: 0;
+}
+
+.c-add-button .add-link {
+    display: inline-block;
+    position: absolute;
+    margin-top: 0;
+    right: 0;
+}

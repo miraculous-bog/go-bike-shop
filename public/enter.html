@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <style>
+        .wrapper {
+            width: 500px;
+            margin: 0 auto;
+            background: #ecf6e9;
+            height: 600px;
+        }
+
+        .info-block-pas {
+            width: 90%;
+            height: 40px;
+            padding: 20px;
+            font-size: 15px;
+            border-bottom: 1px solid black;
+        }
+
+        input[type=password] {
+            width: 60%;
+            padding: 12px 20px;
+            margin-left: 20%;
+            box-sizing: border-box;
+        }
+
+        .entering {
+            width: 90%;
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="info-block-pas">
+        <p>Внимание! Эта форма доступна тольео для владельца сайта. Вы можете <a href="index.html">вернутся назад<a></p>
+    </div>
+    <div class="entering">
+        <form id="pass-form">
+            <label for="pass"></label>
+            <input type="password" id="pass" name="pass">
+            <input type="submit">
+        </form>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script src="/script/enter.js"></script>
+</body>
+</html>

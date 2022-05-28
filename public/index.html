@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="css/catalog.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleForMob.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="top-head">
+        <div class="phone-head">
+            <a href="tel:+380632773930"><i class="fas fa-phone"> </i> +38-063-277-3930</a>
+        </div>
+        <div class="mail-head">
+            <p><i class="far fa-envelope-open"></i> jbanov@i.ua</p>
+        </div>
+    </div>
+    <div class="main-head">
+        <div class="logo-head">
+            <a href="/index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="central-block">
+            <div class="animation-head">
+                <img src="img/wheel.png" alt="">
+            </div>
+            <div class="menu-head">
+                <ul class="menuli-head">
+                    <li><a href="index.html" class="active">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="basket.html">Корзина</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="basket-block">
+            <p class="counter-ba">0</p>
+            <a href=""><img src="img/shopping-basket2.png" alt=""></a>
+            <p class="price-ba">120 <span>&#36;</span></p>
+        </div>
+    </div>
+</header>
+
+<div class="slider">
+    <div class="slider__wrapper">
+        <div class="slider__items">
+            <div class="slider__item">
+                <div>
+                    <img src="img/slider-bike.jpg" alt="">
+                </div>
+            </div>
+            <div class="slider__item">
+                <div>
+                    <img src="img/slider2.jpg" alt="">
+                </div>
+            </div>
+            <div class="slider__item">
+                <div>
+                    <img src="img/slider3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="slider__control slider__control_prev" href="#" role="button"></a>
+    <a class="slider__control slider__control_next" href="#" role="button"></a>
+</div>
+<div class="article">
+    <h2>Категории</h2>
+</div>
+<div class="owl-carousel" id="owl-carousel"></div>
+<div class="article">
+    <h2>Контакти</h2>
+</div>
+<div class="contacts">
+    <div class="contact-mail">
+        <a href="mailto:jbanov@i.ua" target="_blank"><img src="img/email-con.png" alt=""></a>
+    </div>
+    <div class="contact-viber">
+        <a href="viber://add?number=380632773930"><img src="img/viber-con.png" alt=""></a>
+    </div>
+    <div class="contact-phone">
+        <a href="tel:+380632773930"><img src="img/phone-con.png" alt=""></a>
+    </div>
+</div>
+<footer>
+    <div class="wrapper-foot">
+        <div class="left-part">
+            <ul>
+                <li><a href="/index.html">Главная</a></li>
+                <li><a href="/catalog.html">Каталог</a></li>
+                <li><a href="/basket.html">Корзина</a></li>
+            </ul>
+        </div>
+        <div class="right-part">
+            <a href="tel:+380632773930" class="bot-ph"><i class="fas fa-phone"> </i> +38-063-277-3930</a>
+            <p class="bot-mail">jbanov@i.ua</p>
+            <a href="enter.html" class="bot-admin">admin mod</a>
+        </div>
+        <div class="bot logo-head" id="bottom-logo">
+            <a href="/index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+    </div>
+</footer>
+<script src="script/main-slider.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="script/loadOwl.js"></script>
+</body>
+</html>

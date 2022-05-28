@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="css/catalog.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/styleForMob.css">
+</head>
+<body>
+<div id="zoom-img-container">
+    <img src="" alt="zoomed image" id="zoom-img">
+</div>
+<header>
+    <div class="top-head">
+        <div class="phone-head">
+            <a href="tel:+380632773930"><i class="fas fa-phone"></i> +38-063-277-3930</a>
+        </div>
+        <div class="mail-head">
+            <p><i class="far fa-envelope-open"></i> jbanov@i.ua</p>
+        </div>
+    </div>
+    <div class="main-head">
+        <div class="logo-head">
+            <!-- <p><span class="color">i</span>taazh<span class="low"><span class="color">&#8901;</span>velo</span></p> -->
+            <a href="/index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="central-block">
+            <div class="animation-head">
+                <img src="img/wheel.png" alt="">
+            </div>
+            <div class="menu-head">
+                <ul class="menuli-head">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html" class="active">Каталог</a></li>
+                    <li><a href="basket.html">Корзина</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="basket-block">
+            <p class="counter-ba">0</p>
+            <a href=""><img src="img/shopping-basket2.png" alt=""></a>
+            <p class="price-ba">120 <span>&#36;</span></p>
+        </div>
+    </div>
+</header>
+<section class="intro">
+    <div class="article-block"><h1>Фильтр</h1></div>
+    <div class="article-block" id="hide"><h1>Каталог</h1></div>
+</section>
+<section class="content">
+    <div class="filtr">
+        <ul class="filtr-list" id="filter-list"></ul>
+    </div>
+    <div class="catalog" id="catalog"></div>
+</section>
+<footer>
+    <div class="wrapper-foot">
+        <div class="left-part">
+            <ul>
+                <li><a href="/index.html">Главная</a></li>
+                <li><a href="/catalog.html">Каталог</a></li>
+                <li><a href="/basket.html">Корзина</a></li>
+            </ul>
+        </div>
+        <div class="right-part">
+            <a href="tel:+380632773930" class="bot-ph"><i class="fas fa-phone"> </i> +38-063-277-3930</a>
+            <p class="bot-mail">jbanov@i.ua</p>
+            <a href="enter.html" class="bot-admin">admin mod</a>
+        </div>
+        <div class="bot logo-head" id="bottom-logo">
+            <a href="/index.html"><img src="img/logo.png" alt=""></a>
+        </div>
+    </div>
+</footer>
+<!--<script src="script/filter.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script type="text/javascript" src="script/catalogLoader.js"></script>
+</body>
+</html>

@@ -1,0 +1,364 @@
+@media screen and (max-width: 618px) {
+    .top-head {
+        width: 330px;
+        padding: 17px;
+
+    }
+
+    .phone-head, .mail-head {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .main-head {
+        width: 330px;
+        margin: 0 auto;
+        height: 120px;
+        border-bottom: none; /* at aditional border-bottom*/
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    .logo-head {
+        position: static;
+        margin-left: 10%;
+    }
+
+    .logo-head img {
+        width: 130px;
+        height: 60px;
+    }
+
+    .basket-block {
+        position: absolute;
+        top: -2%;
+        right: 0%;
+    }
+
+    .central-block {
+        width: 100%;
+    }
+
+    .menuli-head li a:before {
+        top: 90%;
+    }
+
+    .animation-head {
+        display: none;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    .intro {
+        width: 350px;
+        margin: 0 auto;
+        height: 50px;
+        display: block;
+        border-right: none;
+        text-align: center;
+        background: white;
+    }
+
+    .intro h1 {
+        font-size: 20px;
+        margin: 13px 0;
+    }
+
+    .intro .article-block:nth-child(1) {
+        width: 100%;
+        border: none;
+    }
+
+
+    .content {
+        width: 350px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*filtr*/
+    .filtr {
+        width: 100%;
+        /*	border: 1px solid black;*/
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .filtr-list {
+        position: relative;
+        max-height: 400px;
+    }
+
+    .filtr-list li {
+        max-width: 64%;
+        margin: 10px 0 10px 19%;
+    }
+
+    .filtr-list li.activeLi {
+        border-radius: 50px;
+    }
+
+
+    .catalog {
+        width: 100%;
+    }
+
+    .item {
+        width: 100%;
+        height: auto;
+        padding: 13px 0;
+        border-top: 1px solid green;
+        border-bottom: none;
+    }
+
+    .wrapper-item {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        display: block;
+    }
+
+    .img-item {
+        margin-top: 5%;
+        width: 110px;
+        height: 110px;
+    }
+
+    .img-item img {
+        max-width: 110px;
+        max-height: 110px;
+        width: 100%;
+    }
+
+    .info-item h1 {
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #003300;
+        margin: 5px 0;
+    }
+
+    .info-item {
+        margin-left: 4%;
+        width: 49%;
+        float: left;
+    }
+
+    .info-item-count {
+        align-items: center;
+        display: flex;
+        margin: 10px 0;
+    }
+
+    .clear {
+        display: block;
+        clear: both;
+    }
+
+    .info-item-count input {
+        width: 35%;
+        height: 40px;
+    }
+
+    .counter-btn {
+        width: 40px;
+        height: 40px;
+        background: #CCFF99;
+        border: 1px solid green;
+        cursor: pointer;
+    }
+
+    .counter-btn p {
+        position: absolute;
+        font-size: 36px;
+        margin-left: 10px;
+    }
+
+    .price-item {
+        margin-left: 0%;
+        width: 95%;
+        float: none;
+    }
+
+    .price-item h1 {
+        margin: 10px 5px;
+        display: inline-block;
+    }
+
+    .price-item h2 {
+        margin: 20px 0;
+        margin-left: 30%;
+        display: inline-block;
+    }
+
+    .addtocart-item {
+        text-align: center;
+        padding: 2px 20px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .pagination {
+        display: inline-block;
+        margin: 20px 0%;
+    }
+
+
+    footer {
+        width: 350px;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .wrapper-foot {
+        width: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-part {
+        margin: 5px 0;
+        width: 40%;
+        margin-left: 35%;
+    }
+
+    .right-part {
+        width: 50%;
+        margin-top: 0%;
+        margin-left: 34%;
+    }
+
+    .left-part ul li {
+        margin: 10px 0;
+    }
+
+    .left-part ul li a {
+        font-size: 20px;
+        color: #003300;
+    }
+
+    #bottom-logo {
+        margin-top: 0%;
+        margin-left: 30%;
+    }
+
+    .bot-admin {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .basket-net {
+        width: 350px;
+    }
+
+    .price-item-bas, .whole-price-item {
+        font-size: 20px;
+    }
+
+    .basket-intro {
+        width: 350px;
+        font-size: 10px;
+        height: 27px;
+    }
+
+    .sending {
+        width: 350px;
+    }
+
+    .form-block input[type=text] {
+        width: 100%;
+        padding: 6px 10px;
+        margin: 12px 0px;
+    }
+
+    .form-block input[type=submit] {
+        margin-left: 0%;
+        padding: 5px 10px;
+        transition: 0.4s ease-in-out;
+        font-size: 17px;
+        color: white;
+
+    }
+
+    .form-block input:nth-child(2) {
+        margin-left: 0px;
+    }
+
+    .sumup h3 {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+
+    .slider {
+        position: relative;
+        overflow: hidden;
+        width: 370px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slider__item img {
+        width: 370px;
+        height: 200px;
+    }
+
+    .slider__item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 200px;
+    }
+
+    .owl-carousel {
+        width: 360px;
+        height: 230px;
+        margin: 0 auto;
+    }
+
+    .block-cg {
+        width: 110px;
+        height: 220px;
+    }
+
+    .block-cg img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .block-cg h1 {
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .block-cg p {
+        font-size: 15px;
+        color: green;
+        padding: 10px 0;
+        margin-left: 10%;
+    }
+
+    .article {
+        width: 350px;
+    }
+
+    .contacts {
+        width: 350px;
+        margin: 50px auto;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .contacts img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
